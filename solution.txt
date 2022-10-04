@@ -1,12 +1,10 @@
 const Child = ({handleClick}) =>{
     return (
-
         <button onClick={() => handleClick('Updated!')}>Show more</button>
-    
   )
 }
 
-const Parent = ({) =>{
+const Parent = () =>{
   const [value, setValue] = useState('Update me from child');
 
     return (
